@@ -2,6 +2,7 @@
 
 int main() {
     char operator;
+    char jawab;
     double bilangan1, bilangan2;
 
     printf("Masukkan operator (+, -, *, /): ");
