@@ -39,6 +39,10 @@ int main() {
     }
 
     printf("Hasil: %lf\n", hasil);
+    printf (" Anda ingin coba lagi? [y/t] = ");
+      scanf ("%c", &jawab);
+    }
+      while (jawab=='y'||jawab=='Y');
 
     return 0;
 }
