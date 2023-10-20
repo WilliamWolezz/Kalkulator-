@@ -37,11 +37,11 @@ int main() {
             printf("Operator yang dimasukkan tidak valid.\n");
             return 1;
     }
-
+    
     printf("Hasil: %lf\n", hasil);
+    return 1;
     printf (" Anda ingin coba lagi? [y/t] = ");
       scanf ("%c", &jawab);
-    }
       while (jawab=='y'||jawab=='Y');
 
     return 0;
